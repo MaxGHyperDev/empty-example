@@ -1,7 +1,8 @@
-# Empty 
+# Empty-example
 
-## nginx config example
+### nginx config example
 
+```
 server {
   listen 80;
   server_name empty-example.loc;
@@ -30,3 +31,4 @@ server {
 
   error_log /path-to/empty-example/project_error.log error;
 }
+```
